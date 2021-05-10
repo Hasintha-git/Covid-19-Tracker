@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    background-color: blueviolet;
+    height: 100px;
+}
+.text {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: gainsboro;
+    
+
+}
+@media (max-width:770px){
+    .text {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        color: gainsboro;
+        font-size: 9px;
+        
+    
+    }
+    .footer {
+        width: 100%;
+        background-color: blueviolet;
+        height: 50px;
+    }
+}
